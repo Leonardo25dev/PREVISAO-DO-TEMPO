@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 52px;
+    background-color: rgb(204, 56, 2);
+    border-radius: 12px;
+    height: 60px;
+    padding-top: 7px;
+    font-family: Verdana, Geneva, Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./background.jpeg");
+    background-size: cover; /* This is the key change */
+    background-position: center; 
+
+}
+
+
+.caixa-maior {
+    background-color: #000000;/*  Troca cor de fundo  */
+    width: 95%; /*  Largura  */
+    max-width: 700px; /*  Largura  Maxima */
+    opacity: 0.8;/* transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+    height: 70%;
+    margin: 0 auto;
+}
+
+input {
+    border: none;/* borda do elemento */
+    outline: none;/* borda quando seleciona o elemento */
+    padding: 10px;/* espaçamento interno */
+    border-radius: 24px;/* arredonda as bordas */
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc( 100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 40px;
+    width: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px; /* tamanho do texto */
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.descricao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+}
+
+.umidade {
+    color: #ffffff;
+
+}   
+
+.input-but{
+display: flex;
+gap: 5px;
+justify-content: center;
+}
+
+input::placeholder{
+    color: orangered;
+}
+
+header .caixa-menor-body{
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+}
+
+.hot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.hot img{
+    margin-top: 10px;
+}
+
+.temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
